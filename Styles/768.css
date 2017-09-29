@@ -1,0 +1,81 @@
+﻿@media (min-width:769px) {
+.contacts {
+    float: left;
+    clear:left;
+}
+
+.contacts li {
+    padding-right: 10px;
+}
+
+.links{
+    float:right;
+    clear:right;
+}
+
+.links li{
+    padding: 10px 4px 0;
+}
+
+.searchbox{
+   float: left;
+   clear:left;
+}
+
+.languages-inner {
+   float:right;
+   clear:right;
+   padding: 9px 0 0;
+}
+
+.languages{
+   float:left;
+   margin-right: 10px;
+}
+
+.languages li{
+   padding: 5px 5px 0 0;
+}
+
+.currancy{
+   float:right;
+   padding:0;
+}
+
+.header-logo {
+   position: absolute;
+   margin-top: 72px;
+}
+
+.menu-title{
+    width: 55%; 
+}
+.product-title a {
+    font-size: 1.25em;
+}
+
+h2.product-title{
+    padding-left: 58px;
+} 
+
+.cattitle{
+    margin-bottom: 10px;
+}
+.catimage{
+    display: block;
+    background: #ffffff;
+    padding: 15px;
+}
+
+.catimage img{
+    max-width: 100%;
+}
+
+.products {
+    width: 45%;
+}
+
+.box-content {
+    width: 45%;
+}
+}

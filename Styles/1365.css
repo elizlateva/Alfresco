@@ -1,0 +1,22 @@
+@media (min-width: 1366px) {
+    .btn-left {
+        display: block;
+        position: absolute;
+        background: url("../Images/Previous.png") no-repeat;
+        top: 44%;
+        left: 1%;
+        width: 40px;
+        height: 40px;
+        font-size: 0;
+    }
+    .btn-right {
+        display: block;
+        position: absolute;
+        background: url("../Images/Next.png") no-repeat;
+        width: 46px;
+        height: 46px;
+        top: 43%;
+        right: 1%;
+        font-size: 0;
+    }
+}

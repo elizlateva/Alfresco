@@ -1,0 +1,188 @@
+@media (min-width: 1025px) {
+    .header-inner {
+        width: 980px;
+    }
+    .header-logo {
+        margin-top: 95px;
+    }
+    .mega-menu {
+        display: block;
+    }
+    .menu-title {
+        display: none;
+    }
+    .header-nav {
+        position: relative;
+        margin: -47px auto 0;
+        width: 980px;
+        border-left: 1px solid rgba(255, 255, 255, 0.3);
+        border-top: 1px solid rgba(255, 255, 255, 0.3);
+        border-right: 1px solid rgba(255, 255, 255, 0.3);
+        background: rgba(0, 0, 0, 0.5);
+        box-shadow: 0px 5px 66px -10px;
+    }
+    .mega-menu li {
+        display: inline-block;
+    }
+    .mega-menu li a {
+        display: block;
+        text-decoration: none;
+        font-size: 1.25em;
+        letter-spacing: 1px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        padding: 12px 31px;
+        cursor: pointer;
+    }
+    .mega-menu li a:hover {
+        background: rgba(255, 255, 255, 0.25);
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background: rgba(255, 255, 255, 1);
+        width: 100%;
+        margin: 0 auto;
+        left: 0;
+        right: 0
+    }
+    .dropdown-content li a {
+        display: block;
+        color: #000000;
+        font-size: 1.25em;
+        letter-spacing: 1px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    .dropdown-content li a:hover {
+        background: rgba(166, 166, 166, 0.25);
+    }
+    .categories-inner {
+        width: 980px;
+    }
+    .products-list-inner {
+        width: 980px;
+    }
+    .products {
+        width: 30%;
+    }
+    .overlay {
+        display: block;
+        position: absolute;
+        height: 0;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.6);
+        overflow: hidden;
+        transition: all 0.5s;
+    }
+    .products:hover .overlay {
+        height: 100%;
+    }
+    a.close-overlay {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 100;
+        width: 45px;
+        height: 45px;
+        font-size: 20px;
+        font-weight: 700;
+        color: #fff;
+        line-height: 45px;
+        text-align: center;
+        background-color: #000;
+        cursor: pointer;
+    }
+    a.close-overlay {
+        display: none;
+    }
+    a.expand {
+        display: block;
+        position: absolute;
+        z-index: 100;
+        width: 50px;
+        height: 50px;
+        border: solid 3px #fff;
+        text-align: center;
+        color: #fff;
+        line-height: 50px;
+        font-weight: 700;
+        font-size: 25px;
+        border-radius: 30px;
+        text-decoration: none;
+    }
+    .products .overlay a.expand {
+        left: 0;
+        right: 0;
+        bottom: 50%;
+        margin: 0 auto -30px auto;
+    }
+    .contactinfo-inner {
+        width: 980px;
+    }
+    .box-content {
+        width: 22%;
+        margin-right: 4px;
+        margin-left: 4px;
+    }
+    .box-content:nth-child(2n+1) {
+        float: left;
+    }
+    .box-content:nth-child(2n) {
+        float: left;
+    }
+    .paymentinfo-inner {
+        width: 980px;
+    }
+    .paymentoptions {
+        width: 30%;
+        float: left;
+        margin: 0 18px 0;
+    }
+    .paymentoptions h4 {
+        text-align: left;
+    }
+    .subscribe {
+        width: 270px;
+        position: absolute;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        text-align: left;
+    }
+    .subscribe span {
+        padding-left: 10px;
+    }
+    .followus {
+        width: 30%;
+        float: right;
+        margin: 0 18px 0;
+    }
+    .followus h4 {
+        text-align: left;
+    }
+    .footer {
+        padding: 10px 0;
+    }
+    .footer-inner {
+        width: 980px;
+    }
+    .left-side {
+        float: left;
+    }
+    .mid-side {
+        position: absolute;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+    }
+    .right-side {
+        float: right;
+    }
+}
