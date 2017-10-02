@@ -11,18 +11,15 @@
     .headerslide-gallery {
         position: relative;
     }
-    .image1 img {
-        max-width: 100%;
-        display: block;
-    }
-    .image1 {
+    .slide {
+        width: 100%;
         display: block;
     }
     .menu-title {
         width: 90%;
     }
     .menu-title span {
-        margin-top: -35px;
+        margin-top: -45px;
     }
     .topic h2 {
         text-align: left;

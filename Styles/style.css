@@ -161,6 +161,8 @@ select.currancynav {
 
 .slide {
     display: block;
+    width: 95%;
+    margin: 0 auto;
 }
 
 .slide:nth-child(2) {
@@ -182,7 +184,7 @@ select.currancynav {
 .menu-title {
     display: block;
     width: 95%;
-    margin: 0 auto;
+    margin: 10px auto;
     z-index: 1001;
 }
 
